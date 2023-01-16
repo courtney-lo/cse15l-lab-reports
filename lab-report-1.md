@@ -16,3 +16,5 @@ To connect to a remote computer, I first began by oepning a new terminal and typ
 *Use CTRL-D to log-out of remote server.*
 
 #### Step 3: Trying Some Commands
+
+Now that VS Code is installed and the remote connection has been set up, running some test commands in the terminal will be good practice for getting used to the syntax and how the program works.
