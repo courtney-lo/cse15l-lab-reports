@@ -17,4 +17,12 @@ To connect to a remote computer, I first began by oepning a new terminal and typ
 
 #### Step 3: Trying Some Commands
 
-Now that VS Code is installed and the remote connection has been set up, running some test commands in the terminal will be good practice for getting used to the syntax and how the program works. I began by typing the command ls -lat which printed a list of all the files in the current directory, including hidden files, and lists these files in order of when they were last modified, starting from the newest file.
+Now that VS Code is installed and the remote connection has been set up, running some test commands in the terminal will be good practice for getting used to the syntax and how the program works. I began by typing the command ls -lat which printed a list of all the files in the current directory, including hidden files, and lists these files in order of when they were last modified, starting from the newest file. The output that showed in my terminal can be seen in the image below:
+
+<img src="https://user-images.githubusercontent.com/122492769/212773776-dc10bef7-9528-44ce-a985-fb83c61d8522.png" width="600" height="500">
+
+*Other commands include cd (change directory), pwd (print working directory), mkdir (make a new directory)*
+
+
+
+
