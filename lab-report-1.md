@@ -12,5 +12,6 @@ To install Visual Studio Code on my pc, I followed the download and installation
 To connect to a remote computer, I first began by oepning a new terminal and typing in ssh cse15lwi23**zz**@ieng6.ucsd.edu (be sure to replace **zz** with your own personal account info, in my case I replaced zz with abz, so my command appeared in the terminal as ssh cse15lwi23**abz**@ieng6.ucsd.edu). A message will pop up prompting you to choose yes or no, type yes and continue by entering your password. The remote connection should be set up and your terminal should look similar to the image shown below.
 
 <img src="https://user-images.githubusercontent.com/122492769/212771833-25ebbe7f-d232-4de5-99fd-21583e655515.png" width="700" height="350">
+*USE ctrl-D to log-out of remote server*
 
 #### Step 3: Trying Some Commands
