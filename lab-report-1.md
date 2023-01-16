@@ -3,7 +3,7 @@
 
 To install Visual Studio Code on your pc, follow the download and installation instructions on the [webite](https://code.visualstudio.com/)<br> for your respective pc type. After installing and opening the app, your screen should match the image below.
 
-![Image](installing.png | 250x250)
+![Image](installing.png = 250x250)
 
 *Note: Depending on your individual pc system and settings, the colors may differ than what's shown in the image above.
 
