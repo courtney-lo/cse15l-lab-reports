@@ -94,6 +94,7 @@ Changed code that fixed the bug:
 <br>
 In the original code, the average does not account for there to be repeats of the same number in the array. This causes the calculated average without the lowest number to be incorrect when repeats of the lowest number occur. This is because more than one int in the array is not being added to the sum, but the dividing number is fixed to always be one less than the length of the array. To fix this, a count must be implemented to account for how many elements of the array are being added to the sum, so that the average will be calculated correctly, even if multiple elements aren't being used.
 <br>
+<br>
 Below shows the test cases after the changes in the code are made:
 <br>
 <img src="https://user-images.githubusercontent.com/122492769/215609741-5edab7eb-364b-4051-9842-741f0a94e4ca.png" width="650" height="400"> 
