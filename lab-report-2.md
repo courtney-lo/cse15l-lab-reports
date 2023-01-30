@@ -30,6 +30,26 @@ Nice! <br>
 
 #### Step 2: Bugs
 
+Failure-inducting test input and code:
+
+```java
+ public void testAverageWithoutLowest() {
+    double[] input1 = { -1, -1, 0, 1, 2};
+    double average = ArrayExamples.averageWithoutLowest(input1);
+    assertEquals(1.0, average, 0.0);
+ }
+```
+
+Non-failure inducing test input and code:
+
+```java
+ public void testAverageWithoutLowest() {
+    double[] input2 = {0, 1, 2, 3};
+    double average2 = ArrayExamples.averageWithoutLowest(input2);
+    assertEquals(2, average2, 0.0);
+ }
+```
+
 Symptom of code after running two JUnit test inputs:
 <br>
 <img src="https://user-images.githubusercontent.com/122492769/215606753-c73c7c23-349e-4145-b91d-a1a42e6cdf11.png" width="600" height="450"> 
