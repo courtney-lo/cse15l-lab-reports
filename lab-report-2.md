@@ -30,4 +30,44 @@ Nice! <br>
 
 #### Step 2: Bugs
 
+Symptom of code after running two JUnit test inputs:
+<br>
+<img src="https://user-images.githubusercontent.com/122492769/215606753-c73c7c23-349e-4145-b91d-a1a42e6cdf11.png" width="600" height="450"> 
+<br>
 
+Original code that contains a bug:
+
+```java
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+  ```
+
+Changed code that fixed the bug:
+```java
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    double count = 0;
+    for(double num: arr) {
+      if(num != lowest) { 
+        sum += num; 
+        count++;
+      }
+    }
+    return sum / count;
+  }
+  ```
