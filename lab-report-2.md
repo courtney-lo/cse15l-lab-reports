@@ -7,12 +7,12 @@ Code for StringServer is shown below:
 Example 1: <br>
 In the example below, the handleRequest method was called, which takes in a URI called url as the parameter and returns a String of all the inputs. The parameter taken in is broken apart using the .split() method which separates the non-changing part of the url, with the user changed part. In this case, the URI parameter url input was originally http://localhost:4000/add-messages?s=What%20day%20is%20it?, which outputted the string: <br>
 <br>
-What day is it? <br>
+*What day is it?* <br>
 <br>
 The url was then changed by the user to http://localhost:4000/add-messages?s=Monday., which changed the output to return: <br>
 <br>
-What day is it? <br>
-Monday. <br>
+*What day is it?* <br>
+*Monday.* <br>
 
 <img src="https://user-images.githubusercontent.com/122492769/215407508-6a6357bb-3f56-4e95-872e-253694fde05f.png" width="700" height="200"> 
 
@@ -21,9 +21,9 @@ Monday. <br>
 Example 2:
 In the next example, the handleRequest method was called again after the user changed the URI parameter url to http://localhost:4000/add-messages?s=Nice!. This then output a string containing the current input, as well as retaining the information from the previous inputs. The returned value outputted: <br>
 <br>
-What day is it? <br>
-Monday. <br>
-Nice! <br>
+*What day is it?* <br>
+*Monday.* <br>
+*Nice!* <br>
 <br>
 
 <img src="https://user-images.githubusercontent.com/122492769/215408296-a125d116-f00c-41ea-ba90-2062f5c14307.png" width="700" height="200"> 
