@@ -97,7 +97,6 @@ In the original code, the average does not account for there to be repeats of th
 Below shows the test cases after the changes in the code are made:
 <br>
 <img src="https://user-images.githubusercontent.com/122492769/215609741-5edab7eb-364b-4051-9842-741f0a94e4ca.png" width="650" height="400"> 
-<br>
 
 #### Step 3: What I Learned
 During week 2 and week 3 of lab, I learned how to implement a simple web server. Before this lab I was unaware of what a port number was, or how websites knew what to do based off of different commands to the query. I learned how methods such as the .contains() method can be used to check what the path is implementing, in this case checking for any added messages from the user. As well as learned how the .split() method can be used to get the user's input and return it on the web server.
