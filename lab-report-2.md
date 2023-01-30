@@ -19,3 +19,15 @@ Monday. <br>
 
 
 Example 2:
+In the next example, the handleRequest method was called again after the user changed the URI parameter url to http://localhost:4000/add-messages?s=Nice!. This then output a string containing the current input, as well as retaining the information from the previous inputs. The returned value outputted: <br>
+<br>
+What day is it? <br>
+Monday. <br>
+Nice! <br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/122492769/215408296-a125d116-f00c-41ea-ba90-2062f5c14307.png" width="700" height="200"> 
+
+#### Step 2: Bugs
+
+
