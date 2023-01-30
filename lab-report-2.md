@@ -97,6 +97,7 @@ In the original code, the average does not account for there to be repeats of th
 <br>
 Below shows the test cases after the changes in the code are made:
 <br>
+<br>
 <img src="https://user-images.githubusercontent.com/122492769/215609741-5edab7eb-364b-4051-9842-741f0a94e4ca.png" width="650" height="400"> 
 
 #### Step 3: What I Learned
