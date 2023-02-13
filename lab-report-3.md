@@ -10,6 +10,8 @@ Example 2: <br>
 
 In these examples I used the find -name command in order to find the file with the specific name in the specified directory to search, which in this case is the written_2 directory. This command is important as it can allow specific full pathways to be found for certain files, saving time and effort into looking for it individually.
 
+Source: https://www.redhat.com/sysadmin/linux-find-command
+
 ##### Find -empty
 
 Example 1: <br>
@@ -43,3 +45,5 @@ Example 2: <br>
 <img src="https://user-images.githubusercontent.com/122492769/218574753-bf31c33c-75ba-42b5-acc9-47c63472bf9f.png" width="500" height="600"> 
 
 In these examples, I used the find -type f command. F stands for file and the -type command goes through everything in the current directory and prints out the ones that match the following type that the user specifies in the linux command. In the first example, I wanted to print out all of the files in the directory written_2, so I used the -type f command. Another option is the -type d, where d stands for directories. This is an important command to know because it easily outputs all of the files or directories of the user's choice, so that no extra filtering or commands are needed.
+
+Source: https://sysaix.com/43-practical-examples-of-linux-find-command
