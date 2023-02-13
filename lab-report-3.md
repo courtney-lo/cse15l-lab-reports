@@ -20,6 +20,8 @@ Example 2: <br>
 
 In these examples I used the find -empty command to find the empty files within the specified directory, which was written_2. To show the output I first created an empty file called grep-results.txt, which was shown in the output of the first example since it was an empty file. However after removing the file, calling the find -empty command had no output, as all of the files within written_2 had some content in them. This is important as it can make sorting through files easier when wanting to remove excess files with no data or content in them, so people can clean their directories and file space.
 
+Source: https://www.redhat.com/sysadmin/linux-find-command
+
 ##### Find -d
 
 Example 1: <br>
@@ -29,6 +31,8 @@ Example 2: <br>
 <img src="https://user-images.githubusercontent.com/122492769/218564505-a26a2f82-b5c5-4a2f-9971-8714df2215f1.png" width="375" height="600"> 
 
 In these examples I used the find -d command which lists all the files and directories in the specified directory. This is important to know so that users can see everything that is in the current directory they are looking in. This command can then be used to sort through or filter through different files in a specific directory.
+
+Source: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
 ##### Find -type f
 
