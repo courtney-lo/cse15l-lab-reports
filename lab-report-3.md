@@ -23,9 +23,19 @@ In these examples I used the find -empty command to find the empty files within 
 ##### Find -d
 
 Example 1: <br>
-<img src="https://user-images.githubusercontent.com/122492769/218564492-09c9c1c2-c3bc-41a7-ae81-c01c3bca918c.png" width="400" height="600"> 
+<img src="https://user-images.githubusercontent.com/122492769/218564492-09c9c1c2-c3bc-41a7-ae81-c01c3bca918c.png" width="375" height="600"> 
 
 Example 2: <br>
-<img src="https://user-images.githubusercontent.com/122492769/218564505-a26a2f82-b5c5-4a2f-9971-8714df2215f1.png" width="400" height="600"> 
+<img src="https://user-images.githubusercontent.com/122492769/218564505-a26a2f82-b5c5-4a2f-9971-8714df2215f1.png" width="375" height="600"> 
 
 In these examples I used the find -d command which lists all the files and directories in the specified directory. This is important to know so that users can see everything that is in the current directory they are looking in. This command can then be used to sort through or filter through different files in a specific directory.
+
+##### Find -type f
+
+Example 1: <br>
+<img src="https://user-images.githubusercontent.com/122492769/218574731-47384b4b-fa2b-4f05-868b-7148b8e891d4.png" width="500" height="600"> 
+
+Example 2: <br>
+<img src="https://user-images.githubusercontent.com/122492769/218574753-bf31c33c-75ba-42b5-acc9-47c63472bf9f.png" width="500" height="600"> 
+
+In these examples, I used the find -type f command. F stands for file and the -type command goes through everything in the current directory and prints out the ones that match the following type that the user specifies in the linux command. In the first example, I wanted to print out all of the files in the directory written_2, so I used the -type f command. Another option is the -type d, where d stands for directories. This is an important command to know because it easily outputs all of the files or directories of the user's choice, so that no extra filtering or commands are needed.
