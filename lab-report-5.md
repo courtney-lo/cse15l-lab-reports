@@ -20,9 +20,22 @@ Example 1:
 
 current .txt files –
 
+<img width="662" alt="Screenshot 2023-03-13 at 3 31 28 PM" src="https://user-images.githubusercontent.com/122492769/224848331-de52d73e-6cfb-479f-ad4c-e090e38d57c7.png">
+
 after calling rm -fv –
 
+<img width="612" alt="Screenshot 2023-03-13 at 3 32 36 PM" src="https://user-images.githubusercontent.com/122492769/224848338-459c9886-a9c0-4d82-9c50-d10355a77d1a.png">
+
 Example 2:
+
+current .txt files –
+
+<img width="641" alt="Screenshot 2023-03-13 at 3 39 10 PM" src="https://user-images.githubusercontent.com/122492769/224848352-4ed71e07-92a0-40a8-8b2d-863c233f237c.png">
+
+after calling rm -fv –
+
+<img width="559" alt="Screenshot 2023-03-13 at 3 40 52 PM" src="https://user-images.githubusercontent.com/122492769/224848491-4809377e-6b36-49eb-a2b0-195a93276f1b.png">
+
 
 In these examples, I used the remove -fv command to remove all .txt files in the current directory without getting a prompt or warning message. This command is important because we learned about how to find all the .txt files in the current directory, but in the case we want to remove them, rather than spending time removing each file individually, we can just use this command. It ultimately saves a lot of time and effort.
 
@@ -50,6 +63,8 @@ Example 1:
 <img width="1049" alt="Screenshot 2023-03-13 at 3 35 26 PM" src="https://user-images.githubusercontent.com/122492769/224847697-d5418b06-3d48-426a-ad63-6a55e20c1359.png">
 
 Example 2:
+
+<img width="457" alt="Screenshot 2023-03-13 at 3 42 16 PM" src="https://user-images.githubusercontent.com/122492769/224848718-1cad7b88-bd1c-422c-9ef4-083696ffebae.png">
 
 In these examples, I used the remove -r command in order to remove non-empty directories. The command recursively passes through all the files within the directory, removing them, and then finally removing the directory itself. This is ipmortant becaues it allows us to remove directories that contain files we no logner need before, clearing up cluttered systems, and saving time and effort from having to call multiple commands.
 
