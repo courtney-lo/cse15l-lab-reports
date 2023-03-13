@@ -1,5 +1,7 @@
 ## Week 9 Lab Report 5
 
+Source used: [Linuxise](https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/) - https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
+
 #### Part 1: Lab Report 3 Using Find Command
 
 My favorite lab report that I did this quarter was lab report 3, which was the exploration of different ways you can execute a certain command. I chose to use the find command, as that was the one command that I felt would be the most useful to me going forward in the course, however, I do wish that I took the time to learn more about other commands, which is why I chose this lab report to relook at.
@@ -75,5 +77,4 @@ Example 2:
 <img width="457" alt="Screenshot 2023-03-13 at 3 42 16 PM" src="https://user-images.githubusercontent.com/122492769/224848718-1cad7b88-bd1c-422c-9ef4-083696ffebae.png">
 
 In these examples, I used the remove -r command in order to remove non-empty directories. The command recursively passes through all the files within the directory, removing them, and then finally removing the directory itself. This is ipmortant becaues it allows us to remove directories that contain files we no logner need before, clearing up cluttered systems, and saving time and effort from having to call multiple commands.
-
 
