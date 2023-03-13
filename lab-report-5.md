@@ -42,11 +42,15 @@ In these examples, I used the remove -fv command to remove all .txt files in the
 
 ##### rm -i
 
-Example 1:
+Example 1: Confirming yes to removing the file
 
-Example 2:
+<img width="379" alt="Screenshot 2023-03-13 at 3 45 52 PM" src="https://user-images.githubusercontent.com/122492769/224849545-93371c6c-a77e-4295-befb-4a72411ac4f6.png">
 
-In these examples, I used the remove -i command in order to have a confirmation message pop up, prompting me to confirm each file I would remove, in case I don't want to remove all of them. This is important in case there is a file that the user doesn't want to remove, but forgot about it when calling the remove command. It prevents the user from losing files that are needed.
+Example 2: Saying no to removing the file
+
+<img width="386" alt="Screenshot 2023-03-13 at 3 46 31 PM" src="https://user-images.githubusercontent.com/122492769/224849583-418327b6-7d96-4003-a89d-a596ab98ae37.png">
+
+In these examples, I used the remove -i command in order to have a confirmation message pop up, prompting me to confirm each file I call to remove. This is an important command in case the user makes a mistake and doesn't mean to remove the file they called the command to remove. It prevents the user from making careless mistakes and losing files that are needed.
 
 ##### rm -d
 
