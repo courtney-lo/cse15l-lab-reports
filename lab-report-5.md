@@ -56,7 +56,11 @@ In these examples, I used the remove -i command in order to have a confirmation 
 
 Example 1:
 
+<img width="649" alt="Screenshot 2023-03-13 at 3 49 46 PM" src="https://user-images.githubusercontent.com/122492769/224849815-2876a4ee-c6bc-464a-9fbe-3840f6f947f6.png">
+
 Example 2:
+
+<img width="458" alt="Screenshot 2023-03-13 at 3 50 13 PM" src="https://user-images.githubusercontent.com/122492769/224849841-0dd88327-8fa9-447b-b73e-09b8339f4c26.png">
 
 In these examples, I used the remove -d command in order to remove an empty directory rather than just files within the directory. This is an important command as it can be used to keep the user's system clean and organized. Empty directories may clutter the interface, and so it is important to have a command to remove these directories in order to keep a clean work environment.
 
