@@ -10,12 +10,47 @@ I began by searching up different ways to use the find command – looking for d
 
 ##### Going forward:
 
-In this lab I hope to research more about other commands, such as grep, rm, and , so that I can get a better understanding of different terminal commands I can call to search through and navigate my directories and files.
+In this lab I hope to research more about other commands, such remove (rm), so that I can get a better understanding of different terminal commands I can call to manipulate and navigate my directories and files.
+
+#### Part 2: The Lab with Remove Command
+
+##### rm -fv
+
+Example 1:
+
+current .txt files –
+
+after calling rm -fv –
+
+Example 2:
+
+In these examples, I used the remove -fv command to remove all .txt files in the current directory without getting a prompt or warning message. This command is important because we learned about how to find all the .txt files in the current directory, but in the case we want to remove them, rather than spending time removing each file individually, we can just use this command. It ultimately saves a lot of time and effort.
 
 
+##### rm -i
 
-rm -r (remove non-empty file)
-rmdir (remove a directory)
+Example 1:
+
+Example 2:
+
+In these examples, I used the remove -i command in order to have a confirmation message pop up, prompting me to confirm each file I would remove, in case I don't want to remove all of them. This is important in case there is a file that the user doesn't want to remove, but forgot about it when calling the remove command. It prevents the user from losing files that are needed.
+
+##### rm -d
+
+Example 1:
+
+Example 2:
+
+In these examples, I used the remove -d command in order to remove an empty directory rather than just files within the directory. This is an important command as it can be used to keep the user's system clean and organized. Empty directories may clutter the interface, and so it is important to have a command to remove these directories in order to keep a clean work environment.
+
+##### rm -r
+
+Example 1:
+
+<img width="1049" alt="Screenshot 2023-03-13 at 3 35 26 PM" src="https://user-images.githubusercontent.com/122492769/224847697-d5418b06-3d48-426a-ad63-6a55e20c1359.png">
+
+Example 2:
+
+In these examples, I used the remove -r command in order to remove non-empty directories. The command recursively passes through all the files within the directory, removing them, and then finally removing the directory itself. This is ipmortant becaues it allows us to remove directories that contain files we no logner need before, clearing up cluttered systems, and saving time and effort from having to call multiple commands.
 
 
-sudo ??
